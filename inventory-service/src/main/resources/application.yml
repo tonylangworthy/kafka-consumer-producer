@@ -1,0 +1,17 @@
+micronaut:
+  application:
+    name: inventory-service
+  server:
+    port: 8182
+consul:
+  client:
+    registration:
+      enabled: true
+    defaultZone: ${CONSUL_HOST:localhost}:${CONSUL_PORT:8500}
+netty:
+  default:
+    allocator:
+      max-order: 3
+kafka:
+  bootstrap:
+    servers: localhost:9092

@@ -1,0 +1,11 @@
+{
+  "type": "record",
+  "name": "SaleEvent",
+  "namespace": "com.webbdealer.dms.sales.event",
+  "fields": [
+    {
+      "name": "vin",
+      "type": "string"
+    }
+  ]
+}
